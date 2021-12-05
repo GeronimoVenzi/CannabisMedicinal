@@ -1,0 +1,16 @@
+.headerMenu {
+  width: 40%; }
+  .headerMenu:hover {
+    width: 50%; }
+  .headerMenu img {
+    width: 100%; }
+  .headerMenu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none; }
+  .headerMenu li {
+    display: inline-block;
+    color: white; }
+    .headerMenu li a {
+      color: white; }
