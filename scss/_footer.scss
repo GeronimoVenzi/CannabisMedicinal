@@ -1,0 +1,22 @@
+footer{
+    background-color: rgb(199, 190, 190);
+    padding: 3px;
+}
+.tituloFooter h2{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1.4rem;
+}
+.textoFooter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.redesSociales{
+    display: flex;
+    justify-content: center;
+
+    i{
+        font-size: 30px;
+        padding: 0 15px;
+    }
+}

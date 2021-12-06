@@ -1,0 +1,125 @@
+
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: .8rem;
+    }
+    p{
+        font-size: .7rem;
+        text-align:left;
+    }
+    li{
+        font-size: .75rem;
+    }
+    th{
+        font-size: 1rem;
+    }
+    td{
+        font-size: .75rem;
+    }
+     .header{
+         width: 100%;
+        height: 425px;
+        position: relative;
+     }
+     .tituloCannabis{
+        font-size: 1rem;
+    }
+    .titulo{
+        font-size: .75rem;
+    }
+     .nav{
+        align-self: flex-start;
+
+        &Menu{
+            flex-direction: column;
+            gap: 25px;
+            padding: 1rem;
+
+            & li a{
+                color: black;
+                font-size: 1rem;
+                padding: 2px;
+
+                &:hover{
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(59, 169, 3);
+                    border-radius: 20px;
+                }
+            }
+           
+        }
+    }
+    .seccionAceite{
+        flex-direction: column;
+    }
+    .aceiteImg{
+        width: 300px;
+        height: 300px;
+        align-self: center;
+    }
+    .textoAceite{
+        text-align: left;
+    }
+    .iframe{
+        flex-direction: column;
+        margin: 30px auto;
+        position: relative;
+        overflow: hidden;
+        padding-top: 50px;
+    }
+    .textoIframe{
+        margin: 50px auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .patologiasImg{
+        width: 300px;
+        height: 300px;
+    }
+    .formulario{
+        width: 80%;
+    }
+    .tituloFormulario{
+        font-size: 1rem;
+    }
+    .formLabel{
+        font-size: .8rem;
+    }
+    .formInput{
+        font-size: .8rem;
+    }
+    .btn{
+        font-size: .8rem;
+    }
+    /* SECCION GALERIA*/
+    #carouselExampleIndicators{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 1rem;;
+    }
+    .carousel{
+        position: relative;
+        z-index: -1;
+    }
+    .tituloCarousel{
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .d-block{
+        width: 100%;
+        height: 450px;
+    }
+    footer{
+        background: radial-gradient(circle, rgba(61,51,51,1) 0%, rgba(168,168,168,1) 50%, rgba(57,42,42,1) 100%);
+    }
+    .tituloFooter{
+        font-size: 10px;
+    }
+    .redesSociales i{
+        font-size: 40px;
+        padding: 0 15px;
+    }
+}

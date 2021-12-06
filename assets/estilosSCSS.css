@@ -1,16 +1,331 @@
-.headerMenu {
-  width: 40%; }
-  .headerMenu:hover {
-    width: 50%; }
-  .headerMenu img {
-    width: 100%; }
-  .headerMenu ul {
+.header {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #c7bebe;
+  background: radial-gradient(circle, #3d3333 0%, #a8a8a8 50%, #392a2a 100%); }
+
+.logoHeader {
+  display: flex;
+  align-self: center; }
+
+.logoImg {
+  width: 80px; }
+
+.titulo {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  padding-top: 4px; }
+
+.tituloCannabis {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  transition: font-size .3s ease; }
+  .tituloCannabis:hover {
+    font-size: 35px; }
+
+.nav {
+  display: flex;
+  align-self: center; }
+  .navMenu {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0; }
+    .navMenu li {
+      display: inline-block; }
+      .navMenu li a {
+        display: block;
+        transition: all .4s linear;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-size: 18px;
+        padding: 2px; }
+        .navMenu li a:hover {
+          background-color: white;
+          color: #3ba903;
+          border-radius: 20px; }
+
+.seccionCannabis {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.cannabis {
+  width: 80%;
+  display: block;
+  margin: auto; }
+
+.aceite {
+  background-color: #c7bebe;
+  margin: 0;
+  padding-bottom: .25rem; }
+  .aceiteImg {
+    width: 40%; }
+
+.seccionAceite {
+  display: flex;
+  gap: 50px; }
+
+.iframe {
+  margin: 30px auto;
+  display: flex;
+  gap: 35px; }
+
+.textoIframe {
+  margin: 130px auto;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.patologiasImg {
+  width: 40%; }
+
+.tituloFormulario {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 14px 0; }
+
+.contenedor {
+  font-weight: normal;
+  color: black;
+  padding-bottom: 1em; }
+  .contenedor span {
+    color: #9df8ff; }
+
+.formulario {
+  background-color: #595757;
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 60px; }
+
+.formLabel {
+  display: block;
+  color: #9df8ff;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative; }
+
+.formInput {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #9df8ff;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 60px;
+  font-size: 14px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.formTextarea {
+  border: none;
+  border-bottom: 2px solid #9df8ff;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 60px;
+  font-size: 14px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.btn {
+  width: 20%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: none;
+  font-size: 14px;
+  border: none;
+  border-radius: 60px;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease; }
+  .btn:hover {
+    background: #9df8ff; }
+
+.tabla {
+  margin: 0 auto;
+  border-collapse: collapse; }
+  .tabla th td {
+    border: 2px solid #575454;
+    text-align: center; }
+
+.tablaHeader {
+  background-color: #36dd6d;
+  color: white; }
+
+tr:nth-child(even) {
+  background-color: #c7bebe; }
+
+article p {
+  text-align: center; }
+
+.variedadImg {
+  width: 200px;
+  display: block;
+  margin: auto; }
+
+#carouselExampleIndicators {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 1rem; }
+
+.carousel {
+  position: relative;
+  z-index: -1; }
+
+.tituloCarousel {
+  padding: 3rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.d-block {
+  width: 100%;
+  height: 450px; }
+
+footer {
+  background-color: #c7bebe;
+  padding: 3px; }
+
+.tituloFooter h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem; }
+
+.textoFooter {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  text-align: center; }
+
+.redesSociales {
+  display: flex;
+  justify-content: center; }
+  .redesSociales i {
+    font-size: 30px;
+    padding: 0 15px; }
+
+@media screen and (max-width: 1024px) {
+  p {
+    font-size: 1rem; }
+  h2 {
+    font-size: 1.2rem; }
+  h4 {
+    font-size: 1rem; }
+  li {
+    font-size: 1rem; }
+  th {
+    font-size: 1.1rem; }
+  td {
+    font-size: .9rem; }
+  .header {
     width: 100%;
-    list-style: none; }
-  .headerMenu li {
-    display: inline-block;
-    color: white; }
-    .headerMenu li a {
-      color: white; }
+    height: 140px;
+    position: relative; }
+  .cannabis {
+    width: 50%; }
+  .patologiasImg {
+    width: 45%; }
+  .aceiteImg {
+    width: 450px;
+    height: 450px; }
+  .iframe {
+    flex-direction: column;
+    padding-top: 50px; }
+  .textoIframe {
+    margin: 50px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif; } }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1rem; }
+  h4 {
+    font-size: .8rem; }
+  p {
+    font-size: .7rem;
+    text-align: left; }
+  li {
+    font-size: .75rem; }
+  th {
+    font-size: 1rem; }
+  td {
+    font-size: .75rem; }
+  .header {
+    width: 100%;
+    height: 425px;
+    position: relative; }
+  .tituloCannabis {
+    font-size: 1rem; }
+  .titulo {
+    font-size: .75rem; }
+  .nav {
+    align-self: flex-start; }
+    .navMenu {
+      flex-direction: column;
+      gap: 25px;
+      padding: 1rem; }
+      .navMenu li a {
+        color: black;
+        font-size: 1rem;
+        padding: 2px; }
+        .navMenu li a:hover {
+          background-color: white;
+          color: #3ba903;
+          border-radius: 20px; }
+  .seccionAceite {
+    flex-direction: column; }
+  .aceiteImg {
+    width: 300px;
+    height: 300px;
+    align-self: center; }
+  .textoAceite {
+    text-align: left; }
+  .iframe {
+    flex-direction: column;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px; }
+  .textoIframe {
+    margin: 50px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+  .patologiasImg {
+    width: 300px;
+    height: 300px; }
+  .formulario {
+    width: 80%; }
+  .tituloFormulario {
+    font-size: 1rem; }
+  .formLabel {
+    font-size: .8rem; }
+  .formInput {
+    font-size: .8rem; }
+  .btn {
+    font-size: .8rem; }
+  /* SECCION GALERIA*/
+  #carouselExampleIndicators {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1rem; }
+  .carousel {
+    position: relative;
+    z-index: -1; }
+  .tituloCarousel {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif; }
+  .d-block {
+    width: 100%;
+    height: 450px; }
+  footer {
+    background: radial-gradient(circle, #3d3333 0%, #a8a8a8 50%, #392a2a 100%); }
+  .tituloFooter {
+    font-size: 10px; }
+  .redesSociales i {
+    font-size: 40px;
+    padding: 0 15px; } }

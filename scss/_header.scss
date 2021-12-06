@@ -1,27 +1,42 @@
-.headerMenu{
-    width: 40%;
-
-    &:hover {
-        width: 50%;
-    }
-    img {
-        width: 100%;
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        list-style: none;
-    }
-
-    li {
-        display: inline-block;
-        color: white;
-    
-        a {
-            color: white;
-        }
-
-    }
+.header {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(199, 190, 190);
+    background: radial-gradient(circle, rgba(61,51,51,1) 0%, rgba(168,168,168,1) 50%, rgba(57,42,42,1) 100%);
 }
+.logoHeader{
+    display: flex;
+     align-self: center;
+}
+
+.logoImg{
+     width: 80px;
+}
+
+.titulo{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.tituloCannabis{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    transition: font-size .3s ease;
+
+        &:hover{
+            font-size: 35px;
+        }
+}
+
+
+
+
+
+
