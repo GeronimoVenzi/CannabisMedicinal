@@ -204,11 +204,6 @@ tr:nth-child(even){
 article p{
     text-align: center;
 }
-.variedadImg{
-    width: 200px;
-    display: block;
-    margin: auto;
-}
 
 /* SECCION GALERIA*/
 #carouselExampleIndicators{
@@ -389,6 +384,11 @@ footer{
     }
     .btn{
         font-size: .8rem;
+    }
+    /* SECCION VARIEDADES*/
+    .text-muted {
+        --bs-text-opacity: 1;
+        color: #6c757d!important;
     }
     /* SECCION GALERIA*/
     #carouselExampleIndicators{

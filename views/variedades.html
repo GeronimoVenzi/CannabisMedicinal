@@ -14,23 +14,26 @@
 </head>
 
 <body>
-    <header class="header">
-        <!-- SECCION VARIEDADES -->
-        <div class="logoHeader">
-            <a href="../index.html">
-                <img class="logoImg" src="../Imagenes/logo3.png" alt="logoCannabis">
-            </a>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <div class="logoHeader me-5">
+                    <a href="../index.html">
+                        <img class="logoImg" src="../Imagenes/logo3.png" alt="logoCannabis">
+                    </a>
+                </div>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 ms-5">
+                    <li><a href="../index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+                    <li><a href="../views/cannabisMedicinal.html" class="nav-link px-2 text-white">Cannabis
+                            Medicinal</a></li>
+                    <li><a href="../views/variedades.html" class="nav-link px-2 text-white">Variedades</a></li>
+                    <li><a href="../views/sobreNosotros.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+                    <li><a href="../views/sobreNosotros.html" class="nav-link px-2 text-white">Galería</a></li>
+                    <li><a href="../views/contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+                </ul>
+            </div>
         </div>
-        <nav class="nav">
-            <ul class="navMenu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="cannabisMedicinal.html">Cannabis Medicinal</a></li>
-                <li><a href="variedades.html">Variedades</a></li>
-                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
     <section class="variedades">
         <!-- SECCION VARIEDADES DE CANNABIS -->
@@ -61,38 +64,61 @@
             <p>Estas son algunas de cientas de variedades de cannabis utilizadas para fines medicinales, ya sea para uso
                 mediante aceites o cremas. </p>
         </article>
-        <h2>Cannabis Sativa</h2>
-        <img class="variedadImg" src="../Imagenes/Cannabis sativa.png" alt="cannabisSativa">
-        <p>Normalmente, el Cannabis Sativa es una planta alta, generalmente de un tono de verde más claro que los otros
-            tipos. Sus hojas están formadas por limbos largos y estrechos. Las flores femeninas son más largas y tienen
-            una apariencia más “de pluma” que las del Cannabis Indica. En general, el follaje de la planta de sativa es
-            algo menos denso que el de otras variedades. Ello permite que fluya más aire alrededor y por dentro de las
-            plantas, lo que genera un crecimiento más sano y un menor riesgo de hongos en condiciones tropicales y
-            húmedas.</p>
-        <h2>Cannabis Indica</h2>
-        <img class="variedadImg" src="../Imagenes/Cannabis indica.png" alt="cannabisIndica">
-        <p>El ejemplo típico de Cannabis indica es el de un arbusto más compacto y de tallo más grueso que sus
-            parientes, y normalmente alcanza una altura de menos de dos metros. Generalmente, el follaje es de un verde
-            oscuro, aunque algunos ejemplos parecen tener unas hojas casi azules o verdes-negras. Estas hojas están
-            compuestas por limbos cortos y anchos.</p>
-        <h2>Cannabis Híbrida </h2>
-        <img class="variedadImg" src="../Imagenes/Cannabis Ruderalis.png" alt="cannabisHibrida">
-        <p>Como el nombre sugiere, las cepas de marihuana híbridas son el resultado de cruzar variedades puras u otros
-            híbridos para crear una cepa nueva.</p>
+        <h2>Tipos de hojas de Cannabis</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="../Imagenes/Cannabis sativa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cannabis Sativa</h5>
+                        <p class="card-text">Sus hojas están formadas por limbos largos y estrechos. En general, el follaje de la planta de sativa es
+                            algo menos denso que el de otras variedades. Ello permite que fluya más aire alrededor y por dentro de las
+                            plantas, lo que genera un crecimiento más sano y un menor riesgo de hongos en condiciones tropicales y
+                            húmedas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../Imagenes/Cannabis indica.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cannabis Indica</h5>
+                        <p class="card-text">El ejemplo típico de Cannabis indica es el de un arbusto más compacto y de tallo más grueso que sus
+                            parientes, y normalmente alcanza una altura de menos de dos metros. Generalmente, el follaje es de un verde
+                            oscuro, aunque algunos ejemplos parecen tener unas hojas casi azules o verdes-negras. Estas hojas están
+                            compuestas por limbos cortos y anchos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../Imagenes/Cannabis Ruderalis.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cannais Hibrida</h5>
+                        <p class="card-text">Como el nombre sugiere, las cepas de marihuana híbridas son el resultado de cruzar variedades puras u otros
+                            híbridos para crear una cepa nueva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <div class="tituloFooter">
-            <h2>Contacta con nosotros</h2>
-        </div>
-        <div class="redesSociales">
-            <i class="fab fa-whatsapp"></i>
-            <i class="fab fa-facebook"></i>
-        </div>
-        <div class="contenedor">
-            <p class="textoFooter"> © 2021 Venzi Geronimo / Todos los derechos son reservados.</p>
-        </div>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="../views/cannabisMedicinal.html" class="nav-link px-2 text-muted">Cannabis
+                    Medicinal</a></li>
+            <li class="nav-item"><a href="../views/variedades.html" class="nav-link px-2 text-muted">Variedades</a></li>
+            <li class="nav-item"><a href="../views/sobreNosotros.html" class="nav-link px-2 text-muted">Sobre
+                    Nosotros</a></li>
+            <li class="nav-item"><a href="../views/galeria.html" class="nav-link px-2 text-muted">Galería</a></li>
+            <li class="nav-item"><a href="../views/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e13cb5b016.js" crossorigin="anonymous"></script>
 </body>
 
-</html> 
+</html>

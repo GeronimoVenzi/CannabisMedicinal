@@ -307,6 +307,11 @@ footer {
     font-size: .8rem; }
   .btn {
     font-size: .8rem; }
+    /* SECCION VARIEDADES */
+    .text-muted {
+      --bs-text-opacity: 1;
+      color: #6c757d!important;
+  }
   /* SECCION GALERIA*/
   #carouselExampleIndicators {
     width: 100%;
