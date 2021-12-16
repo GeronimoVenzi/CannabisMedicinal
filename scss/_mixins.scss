@@ -1,0 +1,18 @@
+@mixin seccionCannabis ($flex, $column) {
+    display: $flex;
+    flex-direction: $column;
+}
+
+.header {
+    @include seccionCannabis(flex, column, center);
+}
+  
+@mixin titulo ($fuente, $padding){
+    font-size: $fuente;
+    padding-top: $padding;
+}
+
+.tituloCarousel {
+    @include titulo(1.5rem, 3rem)
+}
+

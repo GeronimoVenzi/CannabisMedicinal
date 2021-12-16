@@ -16,10 +16,6 @@
 .logoImg {
   width: 80px; }
 
-.titulo {
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  font-size: 22px;
-  padding-top: 4px; }
 
 .tituloCannabis {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +24,11 @@
   transition: font-size .3s ease; }
   .tituloCannabis:hover {
     font-size: 35px; }
-
+.titulo {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  padding-top: 4px; }
+  
 .nav {
   display: flex;
   align-self: center; }
