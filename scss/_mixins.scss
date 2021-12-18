@@ -1,28 +1,6 @@
-@mixin boton($alto, $ancho, $fondo, $borde, $curva, $color) {
-    height: $alto;
+@mixin carrusel($ancho, $margin, $padding) {
     width: $ancho;
-    background-color: $fondo;
-    border: $borde;
-    border-radius: $curva;
-    color: $color;
-}
-
-
-@mixin seccionCannabis ($flex, $column, $center) {
-    display: $flex;
-    flex-direction: $column;
-}
-
-.header {
-    @include seccionCannabis(flex, column, center);
-}
-  
-@mixin titulo ($fuente, $padding) {
-    font-size: $fuente;
-    padding-top: $padding;
-}
-
-.tituloCarousel {
-    @include titulo(1.5rem, 3rem)
+    margin: $margin;
+    padding-bottom: $padding;
 }
 
