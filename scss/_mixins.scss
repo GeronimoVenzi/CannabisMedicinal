@@ -1,4 +1,14 @@
-@mixin seccionCannabis ($flex, $column) {
+@mixin boton($alto, $ancho, $fondo, $borde, $curva, $color) {
+    height: $alto;
+    width: $ancho;
+    background-color: $fondo;
+    border: $borde;
+    border-radius: $curva;
+    color: $color;
+}
+
+
+@mixin seccionCannabis ($flex, $column, $center) {
     display: $flex;
     flex-direction: $column;
 }
@@ -7,7 +17,7 @@
     @include seccionCannabis(flex, column, center);
 }
   
-@mixin titulo ($fuente, $padding){
+@mixin titulo ($fuente, $padding) {
     font-size: $fuente;
     padding-top: $padding;
 }

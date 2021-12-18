@@ -1,3 +1,4 @@
+
 .header {
     height: 140px;
     display: flex;
@@ -8,35 +9,43 @@
     right: 0;
     background-color: rgb(199, 190, 190);
     background: radial-gradient(circle, rgba(61,51,51,1) 0%, rgba(168,168,168,1) 50%, rgba(57,42,42,1) 100%);
-}
-.logoHeader{
-    display: flex;
-     align-self: center;
+
+        &Logo {
+            display:flex;
+            align-self: center;
+        }
 }
 
-.logoImg{
-     width: 80px;
+.logoImg {
+    width: 80px;
 }
 
-.titulo{
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
-    padding-top: 4px;
-}
-
-.tituloCannabis{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.menuTitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     font-weight: bold;
     transition: font-size .3s ease;
 
-        &:hover{
+        &:hover {
             font-size: 35px;
         }
 }
 
+.tituloCannabis {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding-top: 4px;
+}
 
+.menuCannabis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
-
-
+        
+    &Img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
