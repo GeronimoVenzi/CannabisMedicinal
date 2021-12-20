@@ -245,13 +245,13 @@ article p {
     width: 50%; }
   .patologiasImg {
     width: 45%; }
-  .aceiteImg {
+  .aceiteSeccionImg {
     width: 450px;
     height: 450px; }
   .iframe {
     flex-direction: column;
     padding-top: 50px; }
-  .textoIframe {
+  .iframeTexto {
     margin: 50px auto;
     font-family: Georgia, 'Times New Roman', Times, serif; } }
 
