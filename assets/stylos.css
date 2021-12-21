@@ -19,12 +19,7 @@ p{
     font-size: 19px;
     text-align: center;
 }
-.titulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    font-weight: bold;
-    transition: font-size .3s ease;
-}
+
 .imagenConocenos{
     width: 250px;
 }
@@ -37,7 +32,7 @@ p{
 .menuTitulo:hover{
     font-size: 28px;
 }
-.tituloCannabis{
+.subTitulo{
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     padding-top: 4px;
@@ -330,7 +325,7 @@ footer{
         height: 425px;
         position: relative;
      }
-     .tituloCannabis{
+     .subTitulo{
         font-size: 1rem;
     }
     .titulo{

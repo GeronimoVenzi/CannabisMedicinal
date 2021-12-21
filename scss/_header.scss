@@ -18,7 +18,7 @@
 .logoImg {
     width: 80px;
 }
-.titulo {
+.menuTitulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     font-weight: bold;
@@ -31,18 +31,9 @@
 .imagenConocenos {
     width: 250px;
 }
-.menuTitulo {
-   @extend titulo;
 
-        &:hover {
-            font-size: 26px;
-        }
-}
-
-.tituloCannabis {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    padding-top: 4px;
+.subTitulo {
+    @extend .menuTitulo;
 }
 
 .menuCannabis {
@@ -58,6 +49,3 @@
     }
 }
 
-.titulo {
-    @extend .menuTitulo;
-}
