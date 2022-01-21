@@ -205,10 +205,16 @@ tr:nth-child(even){
 article p{
     text-align: center;
 }
+/* SECCION SOBRE NOSOTROS */
+.images{
+    width: 30%;
+    margin: 0 650px;
+    padding: 1rem;
+}
 
 /* SECCION GALERIA*/
 #carouselExampleIndicators{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding-bottom: 1rem;;
 }
