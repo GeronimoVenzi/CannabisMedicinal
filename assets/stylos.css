@@ -402,6 +402,12 @@ footer{
         --bs-text-opacity: 1;
         color: #6c757d!important;
     }
+    /* SECCION SOBRE NOSOTROS */
+.images{
+    width: 80%;
+    margin: 0 50px;
+    padding: 1rem;
+}
     /* SECCION GALERIA*/
     #carouselExampleIndicators{
         width: 100%;
